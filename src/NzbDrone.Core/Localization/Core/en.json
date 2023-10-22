@@ -802,6 +802,8 @@
   "MonitorLatestSeasonDescription": "Monitor all episodes of the latest season that aired within the last 90 days and all future seasons",
   "MonitorMissingEpisodes": "Missing Episodes",
   "MonitorMissingEpisodesDescription": "Monitor episodes that do not have files or have not aired yet",
+  "MonitorNewItems": "Monitor New Items",
+  "MonitorNewItemsHelpText": "Which new episodes should be monitored",
   "MonitorNone": "None",
   "MonitorNoneDescription": "No episodes will be monitored",
   "MonitorPilotEpisode": "Pilot Episode",
