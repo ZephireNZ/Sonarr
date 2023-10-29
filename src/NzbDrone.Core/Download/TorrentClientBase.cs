@@ -246,7 +246,7 @@ namespace NzbDrone.Core.Download
 
         private void EnsureReleaseIsNotBlocklisted(RemoteEpisode remoteEpisode, IIndexer indexer, string hash)
         {
-            var indexerSettings = indexer?.Definition.Settings as ITorrentIndexerSettings;
+            var indexerSettings = indexer?.Definition?.Settings as ITorrentIndexerSettings;
             var torrentInfo = remoteEpisode.Release as TorrentInfo;
             var torrentInfoHash = torrentInfo?.InfoHash;
 
